@@ -1,0 +1,8 @@
+{
+  "patient_id": "PT-9402",
+  "age": 58,
+  "tumor_size_mm": 24.5,
+  "brca1_mutation": true,
+  "estrogen_receptor_status": "Positive",
+  "lymph_nodes_positive": 2
+}
