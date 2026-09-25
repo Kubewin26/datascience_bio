@@ -1,0 +1,37 @@
+Write a function that takes two parameters, a and b, and returns their sum.
+python
+Copy code
+def add_numbers(a, b):
+    return a + b
+Write a function that takes a list of numbers as a parameter and returns the largest number in the list.
+python
+Copy code
+def find_largest(numbers):
+    largest = numbers[0]
+    for num in numbers:
+        if num > largest:
+            largest = num
+    return largest
+Write a function that takes a string as a parameter and returns the string reversed.
+python
+Copy code
+def reverse_string(string):
+    return string[::-1]
+Write a function that takes a list of strings as a parameter and returns a new list with only the strings that start with the letter "a".
+python
+Copy code
+def find_strings_starting_with_a(strings):
+    filtered_strings = []
+    for string in strings:
+        if string.startswith('a'):
+            filtered_strings.append(string)
+    return filtered_strings
+Write a function that takes a list of numbers as a parameter and returns a new list with only the even numbers.
+python
+Copy code
+def filter_even_numbers(numbers):
+    filtered_numbers = []
+    for num in numbers:
+        if num % 2 == 0:
+            filtered_numbers.append(num)
+    return filtered_numbers
